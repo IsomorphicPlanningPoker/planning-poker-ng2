@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Type } from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: 'cli-planning-poker.component.html',
   styleUrls: ['cli-planning-poker.component.css']
 })
-export class CliPlanningPokerAppComponent {
+export class CliPlanningPokerAppComponent extends Type {
   title = 'cli-planning-poker works!';
 }
