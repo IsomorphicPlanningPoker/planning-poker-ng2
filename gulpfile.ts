@@ -16,9 +16,6 @@ gulp.task('clean:node_modules', _.partial(clean, paths.node_modules));
 gulp.task('clean:typings', _.partial(clean, paths.typings));
 gulp.task('clean', _.partial(clean, paths.dist));
 
-gulp.task('aux:clean', _.partial(clean, ''));
-
-
 gulp.task('build:node_modules', gulp.series('clean:node_modules', buildNodeModules));
 gulp.task('build:typings', gulp.series('clean:typings', buildTypings));
 
