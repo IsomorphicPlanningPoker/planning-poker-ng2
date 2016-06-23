@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160317120654",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160505161446",
+    "lodash": "registry:dt/lodash#3.10.0+20160619033623",
+    "node": "https://raw.githubusercontent.com/typed-typings/env-node/5fd18dcaee65f2a0fa69e4b1ad9f1bbfb96810c0/4/node.d.ts"
+  }
+}
